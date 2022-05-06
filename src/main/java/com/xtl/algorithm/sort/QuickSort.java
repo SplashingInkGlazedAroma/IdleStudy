@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 /**
  * @author xtl
  * @ClassName QuickSort
- * @Description TODO
+ * @Description 快速排序
  * @date 2022/5/6 10:19
  */
 public class QuickSort {
