@@ -1,5 +1,7 @@
 package com.xtl.other;
 
+import java.util.logging.Logger;
+
 /**
  * @author 31925
  * @className Hello
@@ -9,5 +11,7 @@ package com.xtl.other;
 public class Hello {
     public static void main(String[] args) {
         System.out.println("hello");
+        Logger logger = Logger.getLogger(Hello.class.getName());
+        logger.info("hello");
     }
 }
